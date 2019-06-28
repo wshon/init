@@ -1,5 +1,5 @@
 # Tool
-
+`apt install ca-certificates`
 ## set nginx source
 
 `bash <(curl -sL https://github.com/muumlover/Tool/raw/master/nginx_source.sh)`
