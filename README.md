@@ -9,5 +9,5 @@ wget -qO- https://raw.githubusercontent.com/muumlover/init/master/sshd_port.sh |
 curl https://raw.githubusercontent.com/muumlover/init/master/sshd_port.sh | sh
 
 curl https://raw.fastgit.org/muumlover/init/master/sshd_port.sh | sh
-curl https://raw.fastgit.org/muumlover/init/master/rpi_apt.sh | sh
+curl https://raw.fastgit.org/muumlover/init/master/rpi_apt.sh | sudo sh
 ```
