@@ -7,4 +7,7 @@ sh -c "$(wget https://raw.githubusercontent.com/muumlover/init/master/sshd_port.
 
 wget -qO- https://raw.githubusercontent.com/muumlover/init/master/sshd_port.sh | bash 
 curl https://raw.githubusercontent.com/muumlover/init/master/sshd_port.sh | sh
+
+curl https://raw.fastgit.org/muumlover/init/master/sshd_port.sh | sh
+curl https://raw.fastgit.org/muumlover/init/master/rpi_apt.sh | sh
 ```
