@@ -12,15 +12,16 @@ wget -qO- https://raw.githubusercontent.com/muumlover/init/master/pip_source.sh 
 curl https://raw.githubusercontent.com/muumlover/init/master/pip_source.sh | sh
 ```
 
-## Set sshd port
+## Set debian source
 ```bash
 wget -qO- https://raw.githubusercontent.com/muumlover/init/master/debian_source.sh | bash 
 curl https://raw.githubusercontent.com/muumlover/init/master/debian_source.sh | sh
 ```
+
+## AutoSet debian source
 ```bash
-apt install -y netselect-apt
-cd /etc/apt
-netselect-apt
+wget -qO- https://raw.githubusercontent.com/muumlover/init/master/auto_debian_apt_source.sh | bash 
+curl https://raw.githubusercontent.com/muumlover/init/master/auto_debian_apt_source.sh | sh
 ```
 
 # Tool
