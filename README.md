@@ -6,22 +6,28 @@ wget -qO- https://raw.githubusercontent.com/muumlover/init/master/sshd_port.sh |
 curl https://raw.githubusercontent.com/muumlover/init/master/sshd_port.sh | sh
 ```
 
-## Set pip source
+## Set Pypi pip source
 ```bash
 wget -qO- https://raw.githubusercontent.com/muumlover/init/master/pip_source.sh | bash 
 curl https://raw.githubusercontent.com/muumlover/init/master/pip_source.sh | sh
 ```
 
-## Set debian source
+## Set Debian apt source
 ```bash
-wget -qO- https://raw.githubusercontent.com/muumlover/init/master/debian_source.sh | bash 
-curl https://raw.githubusercontent.com/muumlover/init/master/debian_source.sh | sh
+wget -qO- https://raw.githubusercontent.com/muumlover/init/master/debian_apt.sh | bash 
+curl https://raw.githubusercontent.com/muumlover/init/master/debian_apt.sh | sh
 ```
 
-## AutoSet debian source
+## AutoSet Debian apt source
 ```bash
-wget -qO- https://raw.githubusercontent.com/muumlover/init/master/auto_debian_apt_source.sh | bash 
-curl https://raw.githubusercontent.com/muumlover/init/master/auto_debian_apt_source.sh | sh
+wget -qO- https://raw.githubusercontent.com/muumlover/init/master/debian_apt_auto.sh | bash 
+curl https://raw.githubusercontent.com/muumlover/init/master/debian_apt_auto.sh | sh
+```
+
+## Set Raspberry Pi OS apt source
+```bash
+wget -qO- https://raw.githubusercontent.com/muumlover/init/master/rpios_apt.sh | bash 
+curl https://raw.githubusercontent.com/muumlover/init/master/rpios_apt.sh | sh
 ```
 
 # Tool
