@@ -10,3 +10,5 @@ mv /etc/apt/sources.list.d/raspi.list /etc/apt/sources.list.d/raspi.list.$(date 
 cat >> /etc/apt/sources.list.d/raspi.list <<EOF
 deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 EOF
+
+apt update
