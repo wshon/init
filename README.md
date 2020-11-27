@@ -28,6 +28,8 @@ curl https://raw.githubusercontent.com/muumlover/init/master/debian_apt_auto.sh 
 ```bash
 wget -qO- https://raw.githubusercontent.com/muumlover/init/master/rpios_apt.sh | bash 
 curl https://raw.githubusercontent.com/muumlover/init/master/rpios_apt.sh | sh
+wget -qO- https://git.io/Jk7Qx | bash 
+curl https://git.io/Jk7Qx | sh
 ```
 
 # Tool
